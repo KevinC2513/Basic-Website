@@ -8,6 +8,7 @@
 
 
 
+
 .top_contain {
     display:grid;  
     grid-template-columns: repeat(12,1fr);
@@ -48,12 +49,6 @@
 
 
 
-.company_name {
-    font-family: 'Charm', cursive;
-    color:bisque;
-    align-items: center;
-
-}
 
 .bot_bar{
     background-color: #011f4b;
@@ -63,37 +58,41 @@
 .main_content {
     height: 100%;
     display: grid;
-    grid-template-columns:repeat(5,1fr);
+    grid-template-columns:repeat(12,1fr);
     grid-template-rows: 1fr, 1fr;
     
 }
 
 
 #text_contain_1{
-    grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-start: 3;
+    grid-column-end:11;
     grid-row:1;
     background-color: bisque;
     color:black;
     padding-bottom: 1em;
+    border: 1em solid bisque;
+    text-align: center;
 }
 
 #text_contain_2{
-    grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 11;
     grid-row:2;
     background-color: bisque;
     color:black;
-    padding-bottom: 1em;
+    border: 1em solid bisque;
+    text-align: center;
 }
 
 #text_contain_3{
-    grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 11;
     grid-row:3;
     background-color: bisque;
     color:black;
-    padding-bottom: 1em;
+    border: 1em solid bisque;
+    text-align: center;
 }
 
 
@@ -105,8 +104,15 @@
 
 }
 
+.body_text{
+    font-size:1em;
+    font-family: "Charm";
+
+}
+
 
 .body_contain_home {
+    /* thought about adding a background image but it has a bad contrast */
     /* background-image: url("dining_room.jpg"); */
     display: grid;
     grid-template-columns: 1fr, 3fr, 1fr;
@@ -117,19 +123,19 @@
 
 
 .main_content_home {
-    
     display: grid;
-    grid-template-columns:repeat(5,1fr);
-    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    grid-template-columns:repeat(12,1fr);
+    grid-template-rows: 1fr, 1fr, 1fr;
 }
 
 
 .pic_contain {
-    background-color: bisque;
-    grid-column:2/5;
+    background-color: rgb(250, 249, 247);
+    grid-column:3/11;
     grid-row:2/3;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 
 }
 
@@ -143,8 +149,8 @@
 }
 
 .pic_contain_2{
-    background-color: bisque;
-    grid-column:2/5;
+    background-color: rgb(250, 249, 247);
+    grid-column:3/11;
     grid-row:3/4;
     display: flex;
     flex-direction: row;
