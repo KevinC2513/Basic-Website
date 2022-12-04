@@ -212,3 +212,15 @@
     font-size: .8em;
     font-weight:500;
 }
+
+.carousel-inner .carousel-item {
+    overflow: hidden;
+    object-fit: scale-down;
+    object-position: bottom;
+    height: 30vw;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
