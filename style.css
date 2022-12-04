@@ -69,6 +69,16 @@
     
 }
 
+.founder_name {
+    text-align: left;
+    font-weight: bold;
+    font-family: "Charm";
+}
+
+.found_info {
+    text-align: left;
+    
+}
 
 #text_contain_1{
     grid-column-start: 3;
