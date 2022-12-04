@@ -75,7 +75,7 @@
     font-family: "Charm";
 }
 
-.found_info {
+.founder_info {
     text-align: left;
     
 }
@@ -97,7 +97,7 @@
     background-color: bisque;
     color:black;
     border: 1em solid bisque;
-    text-align: center;
+    text-align:center;
 }
 
 #text_contain_3{
@@ -114,7 +114,17 @@
     grid-column-start: 3;
     grid-column-end: 11;
     grid-row:4;
-    background-color: #ffe4c4;
+    background-color: bisque;
+    color:black;
+    border: 1em solid bisque;
+    text-align: center;
+}
+
+#progress_container{
+    grid-column-start: 3;
+    grid-column-end: 11;
+    grid-row:4;
+    background-color: #fafafa;
     color:black;
     border: 1em solid bisque;
     text-align: center;
@@ -130,16 +140,8 @@
 
 }
 
-.body_text{
-    font-size:1em;
-    font-family: "Charm";
-
-}
-
 
 .body_contain_home {
-    /* thought about adding a background image but it has a bad contrast */
-    /* background-image: url("dining_room.jpg"); */
     display: grid;
     grid-template-columns: 1fr, 3fr, 1fr;
     grid-template-rows: 20%, 20%, 40%, 20%;
@@ -162,6 +164,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 
 }
 
@@ -181,6 +184,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     
 }
 
@@ -192,6 +196,19 @@
     margin-bottom: .5em;
 }
 
+.hire_req {
+    text-align: left;
+    font-weight: 700;
+    
+}
 
+.hire_info{
+    text-align: left;
+    font-size: 1em;
+}
 
-
+.misc_job_info {
+    text-align: left;
+    font-size: .8em;
+    font-weight:500;
+}
